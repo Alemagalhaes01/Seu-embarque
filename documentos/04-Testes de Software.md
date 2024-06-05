@@ -10,21 +10,21 @@ Diante dos cenários apresentados e analisando os requisitos do projeto, foi rea
 
 |*Caso de Teste      | *CT-002 – Lista de aeroportos            | 
 |------------------|-------------------------------|
-| Requisito Associado | RF-002 - No campo Destino e Origem o campo deverá retornar uma lista com os aeroportos para cidade desejada pelo cliente. | 
+| Requisito Associado | RF-002 - No campo Destino e Origem o campo deverá retornar uma lista com os aeroportos para cidade desejada pelo cliente | 
 |Objetivo do Teste| Verificar se após a inclusão dos dados nos campos Destino, Origem e Data a aplicação irá retornar os aeroportos mais próximos da cidade desejada.| 
 |Passos   |1) Acessar a aplicação; 2) Visualizar a tela de “Destino”; 3) Verificar as opções de aeroportos próximo ao destino escolhido pelo cliente.| 
 | Critério de Êxito| Verificar na aba “Destino” se a aplicação retornou as opções de aeroportos mais próximos ao destino do cliente.|
 
 |*Caso de Teste      | *CT-003 – Informações adicionais            | 
 |------------------|-------------------------------|
-| Requisito Associado |RF-003 – O sistema deverá conter uma checkbox para verificar se o cliente deseja uma viagem com hospedagem, ao selecionar sim ele deve permitir que o cliente selecione se quer algo incluso como café da manha e almoço. | 
+| Requisito Associado |RF-003 – O sistema deverá conter uma checkbox para verificar se o cliente deseja uma viagem com hospedagem, ao selecionar sim ele deve permitir que o cliente selecione se quer algo incluso como café da manha e almoço | 
 |Objetivo do Teste| Verificar se o cliente deseja uma viagem que contemple hospedagem com café da manhã, meia pensão ou pensão completa.| 
 |Passos   |1) Acessar a aplicação; 2) Visualizar a tela “Monte o seu pacote de viagem!”; 3) Preencher o campo “Hospedagem?”; 4) Confirmar se deseja ou não hospedagem; 5) Selecionar o tipo de alimentação disponível; 6) Clicar em “Enviar”. | 
 | Critério de Êxito| Verificar se as informações selecionadas pelos clientes foram registradas na base de informações do cliente.|
 
 |*Caso de Teste      | *CT-004 – Informações via e-mail ou whatsapp            | 
 |------------------|-------------------------------|
-| Requisito Associado | RF-004 – A aplicação deve enviar via mensagem no Whatsapp ou Email às informações preenchidas pelo cliente.  | 
+| Requisito Associado | RF-004 – A aplicação deve enviar via mensagem no Whatsapp ou Email às informações preenchidas pelo cliente  | 
 |Objetivo do Teste| Verificar se houve retorno das informações registradas pelos clientes via Whatsapp ou e-mail.| 
 |Passos   |1) Visualizar o email ou whatsapp da empresa; 3) Verificar se o orçamento solicitado pelo cliente encontra-se disponível para consulta.| 
 | Critério de Êxito| Verificar se a mensagem estará disponível no e-mail ou Whatsapp da empresa.|
@@ -52,7 +52,7 @@ Diante dos cenários apresentados e analisando os requisitos do projeto, foi rea
 
 |*Caso de Teste      | *CT-008 – Inserção de solicitação de novo pacote de viagem       | 
 |------------------|-------------------------------|
-|Requisito associado: |RF-007 - Deverá ser desenvolvido uma api para registro dos dados dos clientes e pacotes.  | ALTA |
+|Requisito associado: |RF-007 - Deverá ser desenvolvido uma api para registro dos dados dos clientes e pacotes  | ALTA |
 |Objetivo do Teste| Verificar a inserção de um novo pacote. 
 |Passos   |1) Acessar a aplicação; 2) Digitar a url /pacote 3) Montar o payload, em raw json, de acordo com o modelo package e selecionar o método POST; 3) Clicar em "send"
 | Critério de Êxito| Uma nova solicitação de pacote deve ser inserida no banco de dados. |
