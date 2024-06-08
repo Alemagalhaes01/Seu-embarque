@@ -63,6 +63,15 @@ Diante dos cenários apresentados e analisando os requisitos do projeto, foi rea
 |Objetivo do Teste| Verificar se a filtragem de pacotes por múltiplos critérios está funcionando. 
 |Passos   |1) Acessar a aplicação; 2) Digitar algum termo do pacote em filtrar seguido do critério desejado e selecionar o método GET; 3) Clicar em "send"
 | Critério de Êxito| Todos os pacotes que correspondam aos critérios digitados devem ser listados. Os filtros são cumulativos. No caso de strings, são fornecidas todas os valores que possuam parte dos valores digitados, para facilitar a busca (operador %ILIKE%).|
+
+|*Caso de Teste      | *CT-010 – Teste de Gráficos         | 
+|------------------|-------------------------------|
+|Requisito associado: |RF-007| Deverá ser desenvolvido uma api para registro dos dados dos clientes e pacotes | ALTA |
+|Objetivo do Teste| Verificar se o retorno de dados nos gráficos baseado nas informações cadastradas na tela de pacotes estão válidas. 
+|Passos   |1) Acessar a aplicação; 2) Acessar a tela de Pacotes e realizar um cadastro completo; 3) Após o cadastro, verificar se os gráficos contidos em dashboard foram alterados de acordo com os dados informados. 
+| Critério de Êxito| 1- Primeiro gráfico deve retornar a média de preço dos pacotes juntamente com o faturamento mensal dos pacotes cadastrados|
+| Critério de Êxito| 2- Segundo gráfico deve retornar os destinos mais procurados pelos pacotes cadastrados|
+| Critério de Êxito| 3- Terceiro gráfico deve retornar a quantidade de pacotes por clientes cadastrados|
  
 # Evidências de Testes de Software
 
@@ -189,6 +198,16 @@ Apresente imagens e/ou vídeos que comprovam que um determinado teste foi execut
 -> Resultado da busca
 
 ![Filtragem de pacotes 3](https://github.com/Alemagalhaes01/Seu-embarque/blob/011c93654599b7626b95d0417406fee2ba1688d1/documentos/img/Filtragem%20de%20pacotes%203.jpg)
+
+| Testes 	| CT-010 – Gráficos |
+|:---:	|:---:	|
+
+-> A partir da listagem de PACOTES temos dados com valores (Preço do Pacote), esse valor é diretamente relacionado aos gráficos abaixo.
+
+![Grafico1](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque/main/documentos/img/TestesDeSoftware/TestesGraficos1.jpeg)
+
+![Grafico2](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque/main/documentos/img/TestesDeSoftware/TestesGraficos5.jpeg)
+
 
 ## Evidências de Testes de Software - Backend
 |CT-006 – Inserção de novo cliente      |       | 
